@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Vingadores - Semana do Zero Ao Programador Contratado</title>
+    <link rel="icon" type="image/x-icon" href="./src/imagens/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img class="logo" src="./src/imagens/logo.svg" alt="Logo Vingadores">
+    </header>
+
+    <main class="selecao-de-personagens">
+      <section class="personagens">
+        <h1 class="titulo">Selecione um personagem</h1>
+        <ul class="lista-de-personagens">
+          <li class="personagem selecionado" id="homem-de-ferro" data-name="Homem de Ferro" data-description="Um gênio bilionário, playboy e filantropo que constrói uma armadura tecnologicamente avançada que lhe confere força sobre-humana, voo e uma variedade de armas e recursos tecnológicos">
+            <img
+              src="./src/imagens/card-homem-de-ferro.jpg"
+              alt="Personagem Homem de Ferro"
+            />
+          </li>
+          <li class="personagem" id="capitao-america" data-name="Capitão América" data-description="Um super soldado aperfeiçoado por um soro experimental durante a Segunda Guerra Mundial. Ele possui força, agilidade e resistência sobre-humanas, além de um escudo indestrutível">
+            <img
+              src="./src/imagens/card-capitao-america.jpg"
+              alt="Personagem Capitão América"
+            />
+          </li>
+
+          <li class="personagem" id="thor" data-name="Thor" data-description="O deus do trovão, baseado na mitologia nórdica. Thor empunha o martelo Mjolnir, que lhe confere controle sobre o clima, poderes de voo e a capacidade de canalizar relâmpagos">
+            <img
+              src="./src/imagens/card-thor.jpg"
+              alt="Personagem Thor"
+            />
+          </li>
+
+          <li class="personagem" id="hulk" data-name="Hulk" data-description="Um cientista que, devido a um acidente com radiação gama, se transforma em um gigante verde e musculoso sempre que fica com raiva. O Hulk possui força e resistência incríveis">
+            <img
+              src="./src/imagens/card-hulk.jpg"
+              alt="Personagem Hulk"
+            />
+          </li>
+
+          <li class="personagem" id="viuva-negra" data-name="Viúva Negra" data-description="Uma espiã habilidosa e mestra em artes marciais, conhecida por suas habilidades de luta, astúcia e domínio em espionagem. Ela é uma especialista em infiltrar-se em organizações criminosas">
+            <img
+              src="./src/imagens/card-viuva-negra.jpg"
+              alt="Personagem Viúva Negra"
+            />
+          </li>
+
+          <li class="personagem" id="gaviao-arqueiro" data-name="Gavião Arqueiro" data-description="Um especialista em arco e flecha com habilidades de mira excepcionais. Ele é um atirador experiente e um combatente ágil, além de ter conhecimento tático e estratégico">
+            <img
+              src="./src/imagens/card-gaviao-arqueiro.jpg"
+              alt="Personagem Gavião Arqueiro"
+            />
+          </li>
+
+          <li class="personagem" id="feiticeira-escarlate" data-name="Feiticeira Escarlate" data-description="Uma poderosa mutante com a capacidade de manipular a realidade, criar campos de energia e lançar rajadas de energia. Ela é uma das personagens mais poderosas dos Vingadores">
+            <img
+              src="./src/imagens/card-feiticeira-escarlate.jpg"
+              alt="Personagem Feiticeira Escarlate"
+            />
+          </li>
+
+          <li class="personagem" id="homem-formiga" data-name="Homem-Formiga" data-description="Um ladrão que adquire uma roupa especial que lhe permite encolher de tamanho e aumentar sua força. Ele também pode controlar insetos e possui um alto nível de agilidade">
+            <img
+              src="./src/imagens/card-homem-formiga.jpg"
+              alt="Personagem Homem-Formiga"
+            />
+          </li>
+        </ul>
+      </section>
+      <section class="personagem-selecionado">
+        <img
+          class="personagem-grande"
+          src="./src/imagens/card-homem-de-ferro.png"
+          alt="Personagem Selecionado"
+        />
+
+        <div class="informacoes-personagem">
+          <h2 class="nome-personagem" id="nome-personagem">Homem de Ferro</h2>
+          <p class="descricao-personagem" id="descricao-personagem">
+            Um gênio bilionário, playboy e filantropo que constrói uma armadura tecnologicamente avançada que lhe confere força sobre-humana, voo e uma variedade de armas e recursos tecnológicos
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
